@@ -57,6 +57,7 @@ public class TurretAI : MonoBehaviour
 		{
 			// Todo 
 			// call follow target here
+			this.FollowTarget();
 
 			float currentTargetDist = Vector3.Distance(transform.position, currentTarget.transform.position);
 			if (currentTargetDist > attackDist)

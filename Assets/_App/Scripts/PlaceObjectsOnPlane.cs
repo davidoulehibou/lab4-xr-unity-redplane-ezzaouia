@@ -72,9 +72,10 @@ public class PlaceObjectsOnPlane : MonoBehaviour
 					{
 
 						// Todo set missile position
+						Spawner.Instance.setMissilePosition(hitPose.position);
 
 						// Todo Spawn planes
-
+						Spawner.Instance.spawnRedPlane();
 						// Create instance of the the prefab to place
 						spawnedObject = Instantiate(m_PlacedPrefab, hitPose.position, hitPose.rotation);
 
