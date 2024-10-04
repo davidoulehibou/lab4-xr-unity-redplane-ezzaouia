@@ -550,6 +550,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RedPlane: {fileID: 1709105467465414527, guid: 44a2cd5c890de45b79ced501f3667580,
     type: 3}
+  GreenPlane: {fileID: 7811031373373331265, guid: 2beb43b8a2a4f489daddefd8cde770a9,
+    type: 3}
+  RainbowPlane: {fileID: 2093773026427793716, guid: 704f9b92732764af7874f000a1d12142,
+    type: 3}
 --- !u!1 &1778587536
 GameObject:
   m_ObjectHideFlags: 0
