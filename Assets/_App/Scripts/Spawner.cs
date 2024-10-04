@@ -8,6 +8,8 @@ public class Spawner : MonoBehaviour
     public static Spawner Instance { get; private set; }
 
     public GameObject RedPlane;
+    public GameObject GreenPlane;
+    public GameObject RainbowPlane;
     private Vector3 missilePosition;
 
     void Awake()
@@ -69,9 +71,9 @@ public class Spawner : MonoBehaviour
         spawnPlane(this.RedPlane);
     }
     public void spawnGreenPlane(){
-        
+        spawnPlane(this.GreenPlane);
     }
     public void spawnRainbowPlane(){
-        
+        spawnPlane(this.RainbowPlane);
     }
 }

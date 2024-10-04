@@ -76,6 +76,8 @@ public class PlaceObjectsOnPlane : MonoBehaviour
 
 						// Todo Spawn planes
 						Spawner.Instance.spawnRedPlane();
+						Spawner.Instance.spawnGreenPlane();
+						Spawner.Instance.spawnRainbowPlane();
 						// Create instance of the the prefab to place
 						spawnedObject = Instantiate(m_PlacedPrefab, hitPose.position, hitPose.rotation);
 
